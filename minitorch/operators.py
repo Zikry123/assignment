@@ -177,7 +177,7 @@ def zipWith(fn):
     # TODO: Implement for Task 0.3.
     def add_array(ls1,ls2):
         add_list = []
-        for i in range(len(ls1):
+        for i in range(len(ls1)):
             add_list.append(fn(ls1[i],ls2[i]))
         return add_list
     return add_array
