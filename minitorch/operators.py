@@ -228,7 +228,7 @@ def sum(ls):
     Sum up a list using :func:`reduce` and :func:`add`.
     """
     # TODO: Implement for Task 0.3.
-    return reduce(add,x_0)(ls)
+    return reduce(add,start)(ls)
 
 
 def prod(ls):
@@ -236,4 +236,4 @@ def prod(ls):
     Product of a list using :func:`reduce` and :func:`mul`.
     """
     # TODO: Implement for Task 0.3.
-    return reduce(mul,x_0)(ls)
+    return reduce(mul,start)(ls)
